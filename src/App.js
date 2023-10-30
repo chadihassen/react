@@ -1,22 +1,22 @@
 import './App.css';
-import Navbarr from "./components/Navbarr";
-import Home from "./components/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cardd from './components/Cardd';
+import Navbarr from './Components/Navbarr';
+import Cardd from './Components/Cardd';
+import Cardd1 from './Components/Cardd1';
+import Cardd2 from './Components/Cardd2';
 
 
 function App() {
   return (
     <div>
       <Navbarr />
-      <Home />
       <div className='carta'>
       <Cardd />
-      <Cardd />
-      <Cardd />
+      <Cardd1 />
+      <Cardd2 />
       </div>
+      
     </div>
-    
   );
 }
 
